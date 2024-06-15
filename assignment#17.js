@@ -1,0 +1,14 @@
+"use strict";
+let updatedguestlist = ["Ali", "Umair", "Zoha", "Saba"];
+updatedguestlist.unshift("Soha");
+console.log("Good news!We have a big dinner table", updatedguestlist);
+updatedguestlist.splice(3, 0, "Zainab");
+console.log(updatedguestlist);
+updatedguestlist.push("Samiya");
+console.log(updatedguestlist);
+updatedguestlist.forEach(updatedguestlist => console.log("You are invited for the dinner.", updatedguestlist));
+console.log("Sorry due to some issue i can invite only two person");
+let removedguest = updatedguestlist.slice(2, 6);
+removedguest.forEach(removedguest => console.log(removedguest, "Sorry! i cannot invite you because of not arranging big dinning table"));
+let invitedperson = updatedguestlist.slice(0, 2);
+invitedperson.forEach(invitedperson => console.log(invitedperson, "You are still invited"));

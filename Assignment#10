@@ -1,0 +1,8 @@
+//addition//
+console.log("add=",5+3);
+//subtraction//
+console.log("sub=",12-4);
+//multiplication//
+console.log("multiply=",4*2);
+//division//
+console.log("divide=",16/2);
